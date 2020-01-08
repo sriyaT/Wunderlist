@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "Wunderlist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+                                                                                                    }
+}

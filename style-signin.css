@@ -1,0 +1,192 @@
+body {
+    background: #fff;
+    font-family: 'Segoe', 'Arial', 'sans-serif';
+    min-width: initial;
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+    font-weight: 400;
+    color: #423e3e;
+    margin: 0px;
+}
+a {
+    font-weight: bold;
+    color: #2b88d9;
+    text-decoration: none;
+}
+
+.announcement {
+    background: #edf2fc;
+    min-height: 30px;
+    border-bottom: 1px solid rgba(36, 123, 198, 0.15);
+    font-size: 12px;
+    -moz-box-flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    color: rgb(102, 98, 98);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+    
+}
+.logo-wunderlist{
+    height:85px;
+    width:85px;
+}
+.auth-form{
+    width: 28%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+    border:1px solid #ddd;
+    border-radius:4px 4px 8px 8px;
+}
+.cardlogin{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    background-color: white;
+    height: 50px;
+    border:1px solid #eee;
+    position: relative;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    background-color: white;
+    border:1px solid #eee;
+    height: 50px;
+    position:relative;
+    
+}
+.Eicon{
+    height:40px;
+    width:40px;
+}
+.Picon{
+    height:40px;
+    width:40px;
+}
+#email {
+    border: 1px solid white;
+    height: 30px;
+    margin-bottom: 2px;
+    margin-right: 55px;
+    margin-top:6px;
+    width:300px;
+    background-color: white;
+
+}
+
+
+.password-input{
+    border: 1px solid white;
+    height: 30px;
+    margin-right: 55px;
+    margin-top:6px;
+    width:300px;
+    margin-bottom: 2px;
+}
+.signIn{
+    border: 1px solid #1b7edf;
+    background-color: #1b7edf;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 45px;
+    width: 325px;
+    border-radius: 6px;
+    color: white;
+    font-size: 19px;
+    font-weight: 404;
+}
+.link-forget-password{
+    color:#1b7edf;
+    text-decoration: none;
+    font-size:14px;
+    font-weight: 501;
+}
+.external{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 20px;
+}
+.external-main{
+    display:flex;
+    justify-content:space-between;
+    width:28%;
+}
+.facebook{
+    display:flex;
+    justify-content: center;
+    border: 0.5px solid #ddd;
+    border-radius: 2px;
+}
+.fb{
+    width:105px;
+}
+.google{
+    display:flex;
+    justify-content: center;
+    border: 0.5px solid #ddd;
+    border-radius: 2px;
+}
+.g{
+    width:110px;
+}
+.microsoft{
+    display:flex;
+    justify-content: center;
+    border: 0.5px solid #ddd;
+    border-radius: 2px;
+}
+.m{
+    width: 110px;
+}
+.text-link{
+    display: flex;
+color:#666;
+text-align: center;
+
+justify-content: center;
+margin-bottom: 20px;
+font-size: 15px;
+}
+.link-text{
+    color:#1b7edf;
+}
+#message-email{
+    color: red;
+    left:100%;
+    width: 130px;
+    font-size: 15px;
+    position: absolute;
+    font-weight: 50v0;
+    padding:10px;
+} 
+#message-password{
+    color: red;
+    left:100%;
+    width: 165px;
+    font-size: 15px;
+    position: absolute;
+    font-weight: 500;
+    padding:10px;
+} 

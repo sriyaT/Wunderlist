@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign In: Wunderlist</title>
+    <link rel="icon" href="./picso/Wunderlist_Logo.jpg" type="image/x-icon">                
+    <link href="style-signin.css" rel="styleSheet">
+</head>
+
+<body>
+    <div class="announcement">
+        <div class="cookies-content">This site uses cookies for analytics, personalized content and ads. By continuing
+            to browse this site,
+            you agree to this use.
+            <a href="http://wunderlist.com/privacy-policy">Learn more</a>
+        </div>
+    </div>
+    <div class="logo">
+        <img class="logo-wunderlist" src="picso/Wunderlist_Logo.jpg">
+    </div>
+    <div class="cardlogin">
+        <div class="auth-form">
+            <div class="email">
+
+                <img class="Eicon" src="./picso/email.png">
+                <input class="email-input" id = "email" placeholder="Email" onclick = "emailhandleclick()">
+                <p id="message-email"></p>
+
+            </div>
+            <div class="password">
+
+                <img class="Picon" src="./picso/password.png">
+                <input class="password-input" id = "password" placeholder="Password"onclick = "passwordhandleclick()">
+                <p id="message-password"></p>
+
+            </div>
+            </form>
+            <div class="row-submit">
+                <input class="signIn" type="submit" id = "submit" value="Sign In" onclick="formValidate()">
+            </div>
+            <span class="link-forget-password">
+                <a class="link-forget-password" href="#">Forgot your password?</a>
+            </span>
+        </div>
+    </div>
+    <div class="external">
+        <div class="external-main">
+            <div class="facebook">
+                <img class="fb" src="picso/facebook.png">
+            </div>
+            <div class="google">
+                <img class="g" src="picso/google.png">
+            </div>
+            <div class="microsoft">
+                <img class="m" src="picso/microsoft.png">
+            </div>
+        </div>
+    </div>
+    <span class = "text-link">
+        Don't have an account ? 
+        <a class = "link-text"href = "#">&nbsp Create Account</a>
+    </span>
+    <script defer src = "main.js"></script>
+</body>
+
+</html>
